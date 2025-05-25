@@ -75,7 +75,7 @@ This project is a solution to the Frontend Mentor News Homepage challenge. It de
 
 ## Author
 
-- [Your Name](https://github.com/starboush-t)
+- [Suhaib Abutarboush](https://github.com/starboush-t)
 - [Frontend Mentor Profile](https://www.frontendmentor.io/profile/starboush-t)
 
 ## Acknowledgments
