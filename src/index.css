@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import "tailwindcss";
+
+@layer base{
+  h2{
+    @apply hover:cursor-pointer hover:text-soft-orange duration-300 text-off-white font-Inter font-extrabold leading-relaxed my-2
+  }
+  h3 {
+    @apply text-4xl font-semibold text-soft-red;
+  }
+
+  h4 {
+    @apply text-[17px] font-bold text-very-dark-blue hover:cursor-pointer hover:text-soft-red duration-300;
+  }
+  button {
+    @apply bg-soft-red duration-300 px-8 py-2 text-very-dark-blue capitalize font-semibold cursor-pointer shadow-2xs hover:text-off-white hover:bg-very-dark-blue
+  }
+
+  img {
+    @apply w-25 h-35 object-cover  ;
+  }
+}
+
+@layer components{
+  .grid-layout{
+    @apply grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 items-start  gap-7 place-content-start
+  }
+  .card{
+    @apply flex flex-row items-center justify-start gap-6 mt-6;
+  }
+  .content {
+    @apply flex flex-col gap-2 xl:gap-3 font-Inter leading-relaxed;
+  }
+  .paragraph {
+    @apply text-dark-grayish-blue leading-relaxed font-Inter text-sm xl:pr-2;
+  }
+  .border-b {
+    @apply border-b-1 border-dark-grayish-blue pb-6
+  }
+}
+
+@theme {
+    /* Font */
+  --font-Inter: "Inter", sans-serif;
+  --font-Roboto: "Roboto", sans-serif;
+
+  /* Font Size */
+  --font-size-xxs: 0.625rem; /* 10px */
+  --font-size-xs: 0.75rem; /* 12px */
+  --font-size-sm: 0.875rem; /* 14px */
+  --font-size-base: 1rem; /* 16px */
+  --font-size-lg: 1.125rem; /* 18px */
+  --font-size-xl: 1.25rem; /* 20px */
+  --font-size-2xl: 1.5rem; /* 24px */
+  --font-size-3xl: 1.875rem; /* 30px */
+
+  /* Font Weight */
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --font-weight-extrabold: 800;
+  --font-weight-black: 900;
+
+  /* Primary Color */
+  --color-soft-orange: #e9ab53;
+  --color-soft-red: #f15e50;
+
+  /* Neutral Color*/
+  --color-off-white: #fffdfa;
+  --color-grayish-blue: #c5c6ce;
+  --color-dark-grayish-blue: #5d5f79;
+  --color-very-dark-blue: #00001a;
+}
