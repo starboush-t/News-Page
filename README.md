@@ -1,7 +1,7 @@
 # News Homepage
 
 A responsive news homepage built with React and Tailwind CSS, based on the [Frontend Mentor News Homepage Challenge](https://www.frontendmentor.io/challenges/news-homepage-H6SWTa1MFl).
-
+- [Live Solution](https://sage-raindrop-dc5cfe.netlify.app/)
 ![Design preview for the News homepage coding challenge](design/desktop-design.jpg)
 
 ## Table of Contents
